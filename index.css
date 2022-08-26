@@ -141,10 +141,12 @@ aside .top{
 aside .logo{
 	display: flex;
 	gap: 0.8rem;
+	margin-left: 10px;
 }
 aside .logo img{
 	width: 3rem;
 	height: 2.5rem;
+	border-radius: 45%;
 }
 
  aside .close{
@@ -651,6 +653,9 @@ table tbody tr:last-child td{
 		color: var(--color-dark);
 		position: absolute;
 		left: 1rem;
+	}
+	.profile-photo{
+		margin-top: 40%;
 	}
 
 }

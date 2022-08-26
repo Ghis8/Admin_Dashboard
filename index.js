@@ -1,9 +1,10 @@
-const sideMenu=document.querySelector(".aside")
-const menuBtn=document.querySelector("#menu-btn")
-const closeBtn=document.querySelector("#close-btn")
+const sideMenu=document.getElementById("aside")
+const menuBtn=document.getElementById("menu-btn")
+const closeBtn=document.getElementById("close-btn")
 const themeToggler=document.querySelector(".theme-toggler")
 
 menuBtn.addEventListener('click',()=>{
+	console.log("menu button clicked!")
 	sideMenu.classList.add('hidden')
 })
 
